@@ -101,28 +101,36 @@ const Home = () => {
         <div className="section-container">
           <div className="values-grid">
             <div className="value-card">
-              <div className="value-icon">🌿</div>
+              <div className="value-icon">
+                <Leaf size={48} strokeWidth={1.5} />
+              </div>
               <h3 className="value-title">100% Natural</h3>
               <p className="value-description">
                 No additives or preservatives, just pure Ethiopian spices
               </p>
             </div>
             <div className="value-card">
-              <div className="value-icon">🏔️</div>
+              <div className="value-icon">
+                <Mountain size={48} strokeWidth={1.5} />
+              </div>
               <h3 className="value-title">Locally Sourced</h3>
               <p className="value-description">
                 Partnering with Ethiopian farmers for the finest ingredients
               </p>
             </div>
             <div className="value-card">
-              <div className="value-icon">👨‍🍳</div>
+              <div className="value-icon">
+                <ChefHat size={48} strokeWidth={1.5} />
+              </div>
               <h3 className="value-title">Traditional Methods</h3>
               <p className="value-description">
                 Time-honored preparation techniques passed through generations
               </p>
             </div>
             <div className="value-card">
-              <div className="value-icon">⭐</div>
+              <div className="value-icon">
+                <Award size={48} strokeWidth={1.5} />
+              </div>
               <h3 className="value-title">Premium Quality</h3>
               <p className="value-description">
                 Rigorous quality control for exceptional flavor and freshness
