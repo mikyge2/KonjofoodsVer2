@@ -27,13 +27,6 @@ const Home = () => {
           />
         ))}
         <div className="hero-content">
-          <div className="hero-logo-container">
-            <img 
-              src="https://customer-assets.emergentagent.com/job_a2474130-0ea5-49e7-bc11-eaac74a33658/artifacts/isxrmbob_KonjoFoodsLogo.jpg" 
-              alt="Konjofoods Logo" 
-              className="hero-logo"
-            />
-          </div>
           <h1 className="hero-title">
             <span className="title-main">Konjofoods</span>
           </h1>
